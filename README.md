@@ -100,3 +100,6 @@ The dashboard is designed for deep-dive exploratory analysis. Key features inclu
 1.  **Main Overview**: Displays the Bayesian change point aligned with a 21% shift in mean returns.
 2.  **Impact Panel**: Detailed metrics showing how "OPEC Production Adjustments" shifted volatility by +11%.
 3.  **Filtered View**: Showing only "Regional Conflict" events across a 5-year window.
+4.  **Distribution Shift**:
+    ![Distribution of returns before and after τ](report/images/returns_distribution_shift.png)
+    *Comparative density plot showing the shift in the mean and variance of daily returns before and after the detected structural break.*
